@@ -7,8 +7,7 @@ time=now.time().strftime("%H:%M:%S")
 print(time)
 query=input("What was your excercise today?")
 # _____________________________NUTRITIONIX API Natural language REQUESTS___________________________________
-APP_ID = "3b82aef1"
-API_KEY = "34aa7c080da8c1eaeebde7349c794a63"
+
 
 headers_nutri = {
     "x-app-id": APP_ID,
